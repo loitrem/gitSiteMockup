@@ -1,0 +1,23 @@
+.pageTop{
+    border: solid black;
+}
+
+.header{
+    border: solid red;
+}
+
+.contentWrapper{
+    border: solid green;
+}
+
+.contentContainer{
+    border: solid purple;
+}
+
+.topContent{
+    border: solid blue;
+}
+
+.footer{
+    border: solid orange;
+}
