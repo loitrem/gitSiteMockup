@@ -6,21 +6,35 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- main container div for page -->
         <div class="mainContainer">
             <div class="pageTop">
-                <img src="./images/logo.png" alt="">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="" class="logoImg">
                 <span class="logoText">--local-branching-on-the-cheap</span>
-                <input type="text" class="searchBar">
+                </div>
+               <div class="searchBoxWrapper">
+                    <div class="searchIconBox">
+                        <!-- <img src="images/search.png" alt="" class="searchIcon"> -->
+                    </div>
+                    <i class="magGlass"><img src="images/search.png" alt="" class="searchIcon"></i>
+                    <input type="text" class="searchBar" placeholder="Search entire site...">
+                </div>
             </div>
             
             <!-- header -->
             <div class="header">
-
-            </div>
+                <div class="headerContainer">
+                    <div class="headerTextContainer">
+                   <p class="headerText">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                <p class="headerText">Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+                </div>
+                <img src="./images/branching-illustration.png" alt="" class="headerPic">
+                </div>
+                </div>
 
             <!-- content wrapper -->
             <div class="contentWrapper">
@@ -29,7 +43,42 @@
                 <div class="contentContainer">
                     <!-- top content -->
                     <div class="topContent">
-
+                        <div class="navLinksRow">
+                            <div class="navLinks">
+                                <img src="./images/nav-about.png" alt="" class="navImg">
+                            </div>
+                            <div class="navLinksText">
+                                <h3 class="navLinksTitle">About</h3>
+                                <p class="navLinksDesc">The advantages of Git compared to other control systems.</p>
+                            </div>
+                            
+                            <div class="navLinks">
+                                <img src="./images/nav-documentation.png" alt="" class="navImg">
+                            </div>
+                            <div class="navLinksText">
+                                <h3 class="navLinksTitle">About</h3>
+                                <p class="navLinksDesc">The advantages of Git compared to other control systems.</p>
+                            </div>
+                        </div>
+                        <div class="navLinksRow">
+                            <div class="navLinks">
+                                <img src="./images/nav-downloads.png" alt="" class="navImg">
+                            </div>
+                            <div class="navLinksText">
+                                <h3 class="navLinksTitle">About</h3>
+                                <p class="navLinksDesc">The advantages of Git compared to other control systems.</p>
+                            </div>
+                            <div class="navLinks">
+                                <img src="./images/nav-community.png" alt="" class="navImg">
+                            </div>
+                            <div class="navLinksText">
+                                <h3 class="navLinksTitle">About</h3>
+                                <p class="navLinksDesc">The advantages of Git compared to other control systems.</p>
+                            </div>
+                        </div>
+                        <div class="contentBottom">
+                            
+                        </div>
                     </div>
 
                     <!-- footer -->
@@ -43,6 +92,6 @@
 
         </div>
         
-        <script src="" async defer></script>
+        <script src="app.js" async defer></script>
     </body>
 </html>

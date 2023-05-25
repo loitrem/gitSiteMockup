@@ -1,23 +1,118 @@
+body{
+    background-color: #f0efe7;
+}
+
 .pageTop{
-    border: solid black;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBoxWrapper{
+    display: flex;
+    font-size: 0;
+    
+}
+
+.searchIconBox{
+    height: 24px;
+    width: 30px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(./images/search.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    
+
+}
+
+.searchBar{
+    height: 22px;
+    width: 270px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logoImg{
+    height: 46px;
+    width: 110px;
 }
 
 .header{
-    border: solid red;
+    height: 295px;
+    background-image: url(./images/isometric.png);
+    
+}
+
+.headerContainer{
+    max-width: 940px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.headerPic{
+    height: 251px;
+    width: 389px;
 }
 
 .contentWrapper{
-    border: solid green;
+    height: 700px;
+    display: flex;
+    justify-content: center;
 }
 
 .contentContainer{
     border: solid purple;
+    height: 700px;
+    width: 65%;
 }
 
 .topContent{
     border: solid blue;
+    height: 375px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navLinksRow{
+    border: solid rgb(49, 255, 59);
+    display: flex;
+    width: 618px;
+
+}
+
+.navLinks{
+    border: solid black;
+}
+
+.navImg{
+    height: 74px;
+    width: 74px;
+}
+
+.contentBottom{
+    border-top: 1px solid lightgray;
 }
 
 .footer{
     border: solid orange;
+    height: 92px;
 }
