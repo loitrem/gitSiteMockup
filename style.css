@@ -10,6 +10,17 @@ body{
     justify-content: space-between;
 }
 
+.content1{
+    border: solid black;
+}
+
+.logoText{
+    color: gray;
+    font-size: 24px;
+    margin: auto;
+    padding-left: 8px;
+}
+
 .searchBoxWrapper{
     display: flex;
     font-size: 0;
@@ -27,35 +38,38 @@ body{
     border-bottom-left-radius: 25px;
     text-align: center;
     margin-top: auto;
-    margin-bottom: auto;
-    background-image: url(./images/search.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    
-
+    margin-bottom: auto;   
 }
 
 .searchBar{
-    height: 22px;
-    width: 270px;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    height: 26px;
+    width: 260px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
     margin-top: auto;
     margin-bottom: auto;
+    padding-left: 30px;
+    background-image: url(./images/search.png);
+    background-repeat:no-repeat;
+    background-size:17px;
+    background-position: 10px;
+}
+
+.logo{
+    height: 100%;
+    display: flex;
 }
 
 .logoImg{
     height: 46px;
     width: 110px;
+    padding-top: 6px;
+    padding-bottom: 11px;
 }
 
 .header{
     height: 295px;
     background-image: url(./images/isometric.png);
-    
 }
 
 .headerContainer{
@@ -68,6 +82,14 @@ body{
 .headerPic{
     height: 251px;
     width: 389px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.headerText{
+    width: 548px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .contentWrapper{
@@ -79,28 +101,36 @@ body{
 .contentContainer{
     border: solid purple;
     height: 700px;
-    width: 65%;
+    width: 940px;
+}
+
+.content1{
+    display: flex;
+    width: 940px;
+    display: solid orange;
 }
 
 .topContent{
-    border: solid blue;
     height: 375px;
-    width: 940px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
+    border-right: 1px solid lightgray;
 }
 
 .navLinksRow{
-    border: solid rgb(49, 255, 59);
     display: flex;
     width: 618px;
-
 }
 
 .navLinks{
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .navImg{
@@ -108,8 +138,151 @@ body{
     width: 74px;
 }
 
+.navLinksText{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.navLinksTitle{
+    font-size: 22px;
+    color: orangered;
+}
+
 .contentBottom{
     border-top: 1px solid lightgray;
+    
+}
+
+.bottomLeft{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid black;
+}
+.bottomLeftImg{
+    height: 74px;
+}
+
+.bottomLeftText{
+    width: 540px;
+}
+
+.contentRight{
+    height: 100%;
+    width: 100%;
+}
+
+.contentRightBottom{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid black
+}
+
+.contentRightRow{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightBottomGui{
+    background-image: url(./images/gui.png);
+    background-repeat: no-repeat;
+    background-size: 15px 24px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 40%;
+    height: 30px;
+}
+
+.rightBottomTar{
+    background-image: url(./images/box.png);
+    background-repeat: no-repeat;
+    background-size: 22px 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 40%;
+    height: 30px;
+}
+
+.rightBottomMac{
+    background-image: url(./images/apple.png);
+    background-repeat: no-repeat;
+    background-size: 17px 21px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 40%;
+    height: 30px;
+}
+
+.rightBottomSource{
+    background-image: url(./images/source-code.png);
+    background-repeat: no-repeat;
+    background-size: 25px 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 40%;
+    height: 30px;
+    border: solid green;
+}
+
+.rightLinksText{
+    font-size: 16px;
+    font-weight: bold;
+    color:darkcyan;
+}
+
+.release, .ver, .notes, .winBtn, .notesDate{
+    color: white;
+}
+
+.release{
+    font-size: 17px;
+}
+
+.ver{
+font-size: 30px;
+font-weight: bold;
+}
+
+.notes{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.notesDate{
+    font-size: 12px;
+}
+
+.inPC{
+    height: 235px;
+    border: solid black;
+    background-image: url(./images/monitor-windows.png);
+    background-repeat: no-repeat;
+    background-size: 313px 271px;
+    margin-top: 20px;
+    margin-left: 14px;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+
+.winBtn{
+    margin-top: 15px;
+    background-color: #1a7e84;
+    width: 233px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.winBtn:hover{
+    margin-top: 15px;
+    background-color: #165b60;
+    width: 233px;
+    height: 35px;
 }
 
 .footer{
