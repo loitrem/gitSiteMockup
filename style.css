@@ -11,7 +11,8 @@ body{
 }
 
 .content1{
-    border: solid black;
+    display: flex;
+    width: 940px;
 }
 
 .logoText{
@@ -30,7 +31,7 @@ body{
 .searchIconBox{
     height: 24px;
     width: 30px;
-    background-color: white;
+    background-color: rgb(240, 239, 231);
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     border-left: 1px solid lightgray;
@@ -93,25 +94,12 @@ body{
 }
 
 .contentWrapper{
-    height: 700px;
     display: flex;
     justify-content: center;
 }
 
-.contentContainer{
-    border: solid purple;
-    height: 700px;
-    width: 940px;
-}
-
-.content1{
-    display: flex;
-    width: 940px;
-    display: solid orange;
-}
-
 .topContent{
-    height: 375px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -123,6 +111,8 @@ body{
 .navLinksRow{
     display: flex;
     width: 618px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .navLinks{
@@ -145,6 +135,7 @@ body{
 
 .navLinksTitle{
     font-size: 22px;
+    font-weight: bold;
     color: orangered;
 }
 
@@ -156,9 +147,9 @@ body{
 .bottomLeft{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
-    border: solid black;
+    border-right: 1px solid lightgray;
 }
 .bottomLeftImg{
     height: 74px;
@@ -178,14 +169,11 @@ body{
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: solid black
 }
 
 .contentRightRow{
     display: flex;
     justify-content: flex-start;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .rightBottomGui{
@@ -226,7 +214,6 @@ body{
     padding-left: 30px;
     width: 40%;
     height: 30px;
-    border: solid green;
 }
 
 .rightLinksText{
@@ -259,12 +246,12 @@ font-weight: bold;
 
 .inPC{
     height: 235px;
-    border: solid black;
+    width: 315px;
     background-image: url(./images/monitor-windows.png);
     background-repeat: no-repeat;
     background-size: 313px 271px;
-    margin-top: 20px;
-    margin-left: 14px;
+    margin-top: 29px;
+    margin-left: 20px;
     padding-top: 45px;
     padding-left: 40px;
 }
@@ -285,7 +272,57 @@ font-weight: bold;
     height: 35px;
 }
 
-.footer{
-    border: solid orange;
-    height: 92px;
+.companies{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid lightgray;
 }
+
+.compTitle{
+    text-align: center;
+}
+
+.compRow2{
+    display: flex;
+}
+
+.compRow3{
+    display: flex;
+}
+
+.footer{
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top:20px;
+    padding-top: 20px;
+}
+
+.footerLeft, .footerRight{
+    display: flex;
+}
+
+.footerAbout{
+    padding-left: 10px;
+}
+
+.footerAboutTitle{
+    font-size: 13px;
+}
+
+.footerAboutText{
+    font-size: 13px;
+    color: gray;
+}
+
+.footerRightText{
+    font-size: 13px;
+    color: gray;
+}
+
+.footerRightText2{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
